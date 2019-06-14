@@ -30,9 +30,15 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+While both call a function for each element of an array, .map() returns a new array of the results, and .forEach() does not. 
+
 2. What is the difference between a function and a method?
 
+A function may be defined independently of an object, and a method is a function defined for some object or class. 
+
 3. What is closure?
+
+It is the combination of a function and its lexical environment in which it is declared. 
 
 4. Describe the four rules of the 'this' keyword.
 
@@ -66,11 +72,11 @@ Your finished project must include all of the following requirements:
 
 ## Task 1: Objects and Arrays
 Test your knowledge of objects and arrays. 
-* [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
+* [X] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
 This challenge takes a look at callbacks and closures as well as scope. 
-* [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
+* [X] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
